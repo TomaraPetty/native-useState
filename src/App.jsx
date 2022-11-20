@@ -6,6 +6,7 @@ function NameList() {
 
   const onAddName = () => {
     setList([...list, name]);
+    setName('');
   };
 
   return (
